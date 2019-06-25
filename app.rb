@@ -22,8 +22,8 @@ class App < Sinatra::Base
   end
   
   get "/say/:word1/:word2/:word3/:word4/:word5" do
-    @square_number = params[:number].to_i ** 2
-    "#{@square_number}"
+    combined_string = params[:word1] + params[]
+    
   end
   
 end
