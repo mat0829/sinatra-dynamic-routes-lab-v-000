@@ -40,6 +40,7 @@ class App < Sinatra::Base
       answer = (number1 / number2)
     when "multiply"
       answer = (number1 * number2)
+    end
   end
   
   
