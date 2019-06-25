@@ -31,7 +31,8 @@ class App < Sinatra::Base
     
     answer = ""
     
-    case
+    case params[:operation]
+      
   end
   
   
