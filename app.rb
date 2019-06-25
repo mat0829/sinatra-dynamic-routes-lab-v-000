@@ -22,7 +22,7 @@ class App < Sinatra::Base
   end
   
   get "/say/:word1/:word2/:word3/:word4/:word5" do
-    combined_string = ""
+    combined_string = "stop rhyming I mean it."
   end
   
 end
