@@ -31,7 +31,7 @@ class App < Sinatra::Base
     
     answer = ""
     
-    when answer = 
+    case
   end
   
   
